@@ -10,7 +10,7 @@ const mongoose=require('mongoose');
 const dbconfig=require('./database/mongodb.json')
 
 
-//app.use(logger('dev'));
+app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
